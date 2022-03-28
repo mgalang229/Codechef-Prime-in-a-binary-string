@@ -3,7 +3,7 @@
 void perform_test() {
 	string s;
 	cin >> s;
-	// the answer always exists as long as binary representations
+	// the answer always exists as long as the binary representations
 	// of 2 and 3 are present in the given string
 	bool checker = false;
 	for(int i = 0; i < (int) s.size(); i++) {
